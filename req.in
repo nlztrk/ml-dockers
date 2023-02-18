@@ -5,10 +5,10 @@ polars
 numpy
 tqdm
 scikit-learn
+matplotlib
+seaborn
 datasets
 transformers
 accelerate
 optimum
 sentence-transformers
-matplotlib
-seaborn
