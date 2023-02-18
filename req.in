@@ -5,6 +5,7 @@ numpy
 tqdm
 matplotlib
 seaborn
+ipywidgets
 
 catboost
 lightgbm
