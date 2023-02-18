@@ -1,12 +1,14 @@
-catboost
-lightgbm
+scikit-learn
 pandas
 polars
 numpy
 tqdm
-scikit-learn
 matplotlib
 seaborn
+
+catboost
+lightgbm
+
 datasets
 transformers
 accelerate
