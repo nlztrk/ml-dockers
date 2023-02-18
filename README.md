@@ -24,7 +24,7 @@ docker run --gpus all -it --rm YOURIMAGENAME
 You can add these lines to your `~/.bashrc`:
 ```
 djupyter() {
-docker run -v $PWD:/tmp/working -w=/tmp/working -p 8888:8888 --gpus all --rm -it YOURIMAGENAME jupyter notebook --no-browser --ip="0.0.0.0" --notebook-dir=/tmp/working --allow-root
+docker run -v $PWD:/tmp/working -v ~/.cache:/.cache -w=/tmp/working -p 8888:8888 --gpus all --rm -it YOURIMAGENAME jupyter notebook --no-browser --ip="0.0.0.0" --notebook-dir=/tmp/working --allow-root
 }
 ```
 After resetting all your terminals you can simply open a new terminal then type:
