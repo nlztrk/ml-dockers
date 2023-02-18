@@ -1,0 +1,14 @@
+catboost
+lightgbm
+pandas
+polars
+numpy
+tqdm
+scikit-learn
+datasets
+transformers
+accelerate
+optimum
+sentence-transformers
+matplotlib
+seaborn
