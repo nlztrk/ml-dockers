@@ -1,17 +1,10 @@
 scikit-learn
-pandas
-polars
-numpy
-tqdm
-matplotlib
-seaborn
 ipywidgets
+
+polars
 
 catboost
 lightgbm
 
-datasets
 transformers
-accelerate
-optimum
 sentence-transformers
