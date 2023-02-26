@@ -7,4 +7,5 @@ catboost
 lightgbm
 
 transformers
+datasets
 sentence-transformers
